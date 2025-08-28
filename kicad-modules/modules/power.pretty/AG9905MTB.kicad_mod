@@ -1,0 +1,252 @@
+(footprint "AG9905MTB"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "AG9905-MTB-1")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "b61eb865-43fd-4d35-9554-9ff2de3096c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "AG9905MTB"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3c0281f2-887a-4616-beef-9a9919c68ffe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07fcce62-fc55-47b3-9219-dcb6e56908ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "009cf791-7f33-4ddd-8037-08383a184aaf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8e3aef2-c9ea-404a-ad74-bb52cafd3e2a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -10.855 -7.21)
+		(end 10.855 -7.21)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f194596-1e06-479b-86b8-2f33a053a8e0")
+	)
+	(fp_line
+		(start -10.855 7.21)
+		(end -10.855 -7.21)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75f5ea51-4029-4879-ae4a-51fdaa6f5dfa")
+	)
+	(fp_line
+		(start 10.855 -7.21)
+		(end 10.855 7.21)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8e677a5-91aa-411e-ab18-551b0283a561")
+	)
+	(fp_line
+		(start 10.855 7.21)
+		(end -10.855 7.21)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea8c7f82-f791-4f8c-adda-6756d1b1dcb9")
+	)
+	(fp_poly
+		(pts
+			(xy -10.8 5.8) (xy -11.8 4.8) (xy -11.8 6.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "f1828b25-ec2f-4b89-b34d-423861b55452")
+	)
+	(fp_line
+		(start -11.1 -7.4)
+		(end 11.1 -7.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d05ff511-27a6-4b00-9b80-c8724545fbf1")
+	)
+	(fp_line
+		(start -11.1 7.4)
+		(end -11.1 -7.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b26a842-c741-46a1-91b4-c0c092c26740")
+	)
+	(fp_line
+		(start 11.1 -7.4)
+		(end 11.1 7.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "15cecb7d-f172-4663-a998-c28a1bb50d20")
+	)
+	(fp_line
+		(start 11.1 7.4)
+		(end -11.1 7.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d398ab39-5a6f-4601-bf64-0bfd2dcb3d6c")
+	)
+	(fp_line
+		(start -10.855 -7.21)
+		(end -10.855 7.21)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b089cd7-7751-402d-b207-e1ba3921a88c")
+	)
+	(fp_line
+		(start -10.855 7.21)
+		(end 10.855 7.21)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8fab7f9c-9735-4eb3-a33f-7349abc099c2")
+	)
+	(fp_line
+		(start 10.855 -7.21)
+		(end -10.855 -7.21)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7af6393d-691b-4d56-9865-ce5f051ec7a4")
+	)
+	(fp_line
+		(start 10.855 7.21)
+		(end 10.855 -7.21)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "649cfc66-87e5-4941-aed0-a07a467c571e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2892a264-87fe-44c9-b8a3-4781631e8533")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -8.655 5.79 90)
+		(size 1.83 3.81)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6e22dbb2-6d8b-4a0f-b349-9a58f8d29092")
+	)
+	(pad "2" smd rect
+		(at 6.535 4.85)
+		(size 1.83 3.81)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "00b769a7-928c-4bfe-bdab-83ef1f8ea52a")
+	)
+	(pad "3" smd rect
+		(at 8.875 4.85)
+		(size 1.83 3.81)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8da9257d-761f-405c-9bb2-527c95104bfe")
+	)
+	(pad "4" smd rect
+		(at 7.935 -5.79 90)
+		(size 1.83 3.81)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8c089927-32d3-4499-af1e-d4cc11431630")
+	)
+	(pad "5" smd rect
+		(at -8.655 -5.79 90)
+		(size 1.83 3.81)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f92f9cb7-4461-412f-bcae-e2b98b237224")
+	)
+	(model "/home/afc/freedom/open_acoustic_camera/kicad-modules/shapes3d/Ag9900MTB.step"
+		(offset
+			(xyz -5.5 -76 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

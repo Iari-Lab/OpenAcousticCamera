@@ -1,0 +1,2375 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "FT4232H-56Q-TRAY"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 43.942 68.072 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "FT4232H-56Q-TRAY"
+			(at 10.414 16.764 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "smd:VQFN56_FTD"
+			(at -23.368 65.532 0)
+			(effects
+				(font
+					(size 1. 1.)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "FT4232H-56Q-TRAY"
+			(at -21.844 69.596 0)
+			(effects
+				(font
+					(size 1. 1.)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -22.86 53.34 0)
+			(effects
+				(font
+					(size 1. 1.)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "FT4232H-56Q-TRAY"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "VQFN56_FTD VQFN56_FTD-M VQFN56_FTD-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "FT4232H-56Q-TRAY_0_1"
+			(pin power_in line
+				(at -22.86 49.53 0)
+				(length 7.62)
+				(name "VREGIN"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 38.1 0)
+				(length 7.62)
+				(name "VREGOUT"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 25.4 0)
+				(length 7.62)
+				(name "DM"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 22.86 0)
+				(length 7.62)
+				(name "DP"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 2.54 0)
+				(length 7.62)
+				(name "REF"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -12.7 0)
+				(length 7.62)
+				(name "EECS"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 -15.24 0)
+				(length 7.62)
+				(name "EECLK"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "56"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -17.78 0)
+				(length 7.62)
+				(name "EEDATA"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "55"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -27.94 0)
+				(length 7.62)
+				(name "OSCI"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 -31.75 0)
+				(length 7.62)
+				(name "OSCO"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -39.37 0)
+				(length 7.62)
+				(name "TEST"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -8.89 66.04 270)
+				(length 7.62)
+				(name "VPHY"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -6.35 66.04 270)
+				(length 7.62)
+				(name "VPLL"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -6.35 -50.8 90)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "57"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -1.27 66.04 270)
+				(length 7.62)
+				(name "VCORE"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 0 -50.8 90)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 1.27 66.04 270)
+				(length 7.62)
+				(name "VCORE"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 2.54 -50.8 90)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 5.08 -50.8 90)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 6.35 66.04 270)
+				(length 7.62)
+				(name "VCCIO"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8.89 66.04 270)
+				(length 7.62)
+				(name "VCCIO"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 11.43 66.04 270)
+				(length 7.62)
+				(name "VCCIO"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "50"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 54.61 180)
+				(length 7.62)
+				(name "ADBUS0"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 52.07 180)
+				(length 7.62)
+				(name "ADBUS1"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 49.53 180)
+				(length 7.62)
+				(name "ADBUS2"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 46.99 180)
+				(length 7.62)
+				(name "ADBUS3"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 44.45 180)
+				(length 7.62)
+				(name "ADBUS4"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 41.91 180)
+				(length 7.62)
+				(name "ADBUS5"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 39.37 180)
+				(length 7.62)
+				(name "ADBUS6"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 36.83 180)
+				(length 7.62)
+				(name "ADBUS7"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 31.75 180)
+				(length 7.62)
+				(name "BDBUS0"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 29.21 180)
+				(length 7.62)
+				(name "BDBUS1"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 26.67 180)
+				(length 7.62)
+				(name "BDBUS2"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 24.13 180)
+				(length 7.62)
+				(name "BDBUS3"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 21.59 180)
+				(length 7.62)
+				(name "BDBUS4"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 19.05 180)
+				(length 7.62)
+				(name "BDBUS5"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 16.51 180)
+				(length 7.62)
+				(name "BDBUS6"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 13.97 180)
+				(length 7.62)
+				(name "BDBUS7"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 8.89 180)
+				(length 7.62)
+				(name "CDBUS0"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 6.35 180)
+				(length 7.62)
+				(name "CDBUS1"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 3.81 180)
+				(length 7.62)
+				(name "CDBUS2"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 1.27 180)
+				(length 7.62)
+				(name "CDBUS3"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -1.27 180)
+				(length 7.62)
+				(name "CDBUS4"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -3.81 180)
+				(length 7.62)
+				(name "CDBUS5"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -6.35 180)
+				(length 7.62)
+				(name "CDBUS6"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -8.89 180)
+				(length 7.62)
+				(name "CDBUS7"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -13.97 180)
+				(length 7.62)
+				(name "DDBUS0"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -16.51 180)
+				(length 7.62)
+				(name "DDBUS1"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -19.05 180)
+				(length 7.62)
+				(name "DDBUS2"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -21.59 180)
+				(length 7.62)
+				(name "DDBUS3"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -24.13 180)
+				(length 7.62)
+				(name "DDBUS4"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -26.67 180)
+				(length 7.62)
+				(name "DDBUS5"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -29.21 180)
+				(length 7.62)
+				(name "DDBUS6"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "52"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -31.75 180)
+				(length 7.62)
+				(name "DDBUS7"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "53"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+		)
+		(symbol "FT4232H-56Q-TRAY_1_1"
+			(rectangle
+				(start -15.24 58.42)
+				(end 22.86 -43.18)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -22.86 7.62 0)
+				(length 7.62)
+				(name "~{RESET}"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 30.48 -36.83 180)
+				(length 7.62)
+				(name "~{PWREN}"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "54"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 30.48 -39.37 180)
+				(length 7.62)
+				(name "~{SUSPEND}"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "FT4232HQ-TRAY"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 43.942 68.072 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "FT4232HQ-TRAY"
+			(at 10.414 16.764 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP4.7x4.7mm_ThermalVias"
+			(at -23.368 65.532 0)
+			(effects
+				(font
+					(size 1. 1.)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/163/DS_FT4232H-1621254.pdf"
+			(at -21.844 69.596 0)
+			(effects
+				(font
+					(size 1. 1.)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -22.86 53.34 0)
+			(effects
+				(font
+					(size 1. 1.)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "FT4232HQ-TRAY"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "VQFN56_FTD VQFN56_FTD-M VQFN56_FTD-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "FT4232HQ-TRAY_0_1"
+			(pin input line
+				(at -22.86 25.4 0)
+				(length 7.62)
+				(name "DM"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 22.86 0)
+				(length 7.62)
+				(name "DP"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 2.54 0)
+				(length 7.62)
+				(name "REF"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -6.35 66.04 270)
+				(length 7.62)
+				(name "VPLL"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+		)
+		(symbol "FT4232HQ-TRAY_1_1"
+			(rectangle
+				(start -15.24 58.42)
+				(end 22.86 -43.18)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -22.86 49.53 0)
+				(length 7.62)
+				(name "VREGIN"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "50"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 38.1 0)
+				(length 7.62)
+				(name "VREGOUT"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 7.62 0)
+				(length 7.62)
+				(name "~{RESET}"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -12.7 0)
+				(length 7.62)
+				(name "EECS"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "63"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 -15.24 0)
+				(length 7.62)
+				(name "EECLK"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "62"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -17.78 0)
+				(length 7.62)
+				(name "EEDATA"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "61"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -27.94 0)
+				(length 7.62)
+				(name "OSCI"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -22.86 -31.75 0)
+				(length 7.62)
+				(name "OSCO"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -39.37 0)
+				(length 7.62)
+				(name "TEST"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -10.16 -50.8 90)
+				(length 7.62)
+				(name "AGND"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -8.89 66.04 270)
+				(length 7.62)
+				(name "VPHY"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -7.62 -50.8 90)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "65"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -5.08 -50.8 90)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 66.04 270)
+				(length 7.62)
+				(name "VCORE"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -2.54 -50.8 90)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -1.27 66.04 270)
+				(length 7.62)
+				(name "VCORE"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 0 -50.8 90)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 1.27 66.04 270)
+				(length 7.62)
+				(name "VCORE"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "64"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 2.54 -50.8 90)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 3.81 66.04 270)
+				(length 7.62)
+				(name "VCCIO"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 5.08 -50.8 90)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 6.35 66.04 270)
+				(length 7.62)
+				(name "VCCIO"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 7.62 -50.8 90)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8.89 66.04 270)
+				(length 7.62)
+				(name "VCCIO"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 10.16 -50.8 90)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 11.43 66.04 270)
+				(length 7.62)
+				(name "VCCIO"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "56"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.7 -50.8 90)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 54.61 180)
+				(length 7.62)
+				(name "TXD/ADBUS0"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 52.07 180)
+				(length 7.62)
+				(name "RXD/ADBUS1"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 49.53 180)
+				(length 7.62)
+				(name "ADBUS2"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 46.99 180)
+				(length 7.62)
+				(name "ADBUS3"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 44.45 180)
+				(length 7.62)
+				(name "ADBUS4"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 41.91 180)
+				(length 7.62)
+				(name "ADBUS5"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 39.37 180)
+				(length 7.62)
+				(name "ADBUS6"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 36.83 180)
+				(length 7.62)
+				(name "ADBUS7"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 31.75 180)
+				(length 7.62)
+				(name "TXD/BDBUS0"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 29.21 180)
+				(length 7.62)
+				(name "RXD/BDBUS1"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 26.67 180)
+				(length 7.62)
+				(name "BDBUS2"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 24.13 180)
+				(length 7.62)
+				(name "BDBUS3"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 21.59 180)
+				(length 7.62)
+				(name "BDBUS4"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 19.05 180)
+				(length 7.62)
+				(name "BDBUS5"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 16.51 180)
+				(length 7.62)
+				(name "BDBUS6"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 13.97 180)
+				(length 7.62)
+				(name "BDBUS7"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 8.89 180)
+				(length 7.62)
+				(name "TXD/CDBUS0"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 6.35 180)
+				(length 7.62)
+				(name "RXD/CDBUS1"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 3.81 180)
+				(length 7.62)
+				(name "CDBUS2"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 1.27 180)
+				(length 7.62)
+				(name "CDBUS3"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -1.27 180)
+				(length 7.62)
+				(name "CDBUS4"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -3.81 180)
+				(length 7.62)
+				(name "CDBUS5"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -6.35 180)
+				(length 7.62)
+				(name "CDBUS6"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -8.89 180)
+				(length 7.62)
+				(name "CDBUS7"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -13.97 180)
+				(length 7.62)
+				(name "TXD/DDBUS0"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -16.51 180)
+				(length 7.62)
+				(name "RXD/DDBUS1"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "52"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -19.05 180)
+				(length 7.62)
+				(name "DDBUS2"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "53"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -21.59 180)
+				(length 7.62)
+				(name "DDBUS3"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "54"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -24.13 180)
+				(length 7.62)
+				(name "DDBUS4"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "55"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -26.67 180)
+				(length 7.62)
+				(name "DDBUS5"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "57"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -29.21 180)
+				(length 7.62)
+				(name "DDBUS6"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "58"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -31.75 180)
+				(length 7.62)
+				(name "DDBUS7"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "59"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 30.48 -36.83 180)
+				(length 7.62)
+				(name "~{PWREN}"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "60"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 30.48 -39.37 180)
+				(length 7.62)
+				(name "~{SUSPEND}"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1. 1.)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

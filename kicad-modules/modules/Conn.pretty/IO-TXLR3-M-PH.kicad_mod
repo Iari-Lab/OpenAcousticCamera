@@ -1,0 +1,150 @@
+(footprint "IO-TXLR3-M-PH"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c956ac59-0051-4694-bed3-ab4cbaa8ea9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "IO-TXLR3-M-PH"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3d044c55-9700-4c5d-96a2-d867c050aa96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e70de7c-7367-410c-80c7-c56af18af805")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a172c775-2856-421f-9cd8-0cda0e06711f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f153b0d-f4ee-4e85-bd33-995fa4de8776")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -11.95 -7.75)
+		(end 7.95 7.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "da87d767-e1d2-46df-b704-6a9e3697c4ee")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a99e9004-b2b8-4129-be16-cfee4c4f6446")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -5.08)
+		(size 3.25 3.25)
+		(drill 3.25)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "ea8b89dc-ca9f-45e9-985d-d64fd9164735")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 5.08)
+		(size 3.25 3.25)
+		(drill 3.25)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "2a60cfa4-0430-4d50-9f52-4cf59d241bfa")
+	)
+	(pad "1" thru_hole circle
+		(at -6.35 1.6)
+		(size 1.2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1e17ccca-5c66-4eb0-ab0b-69fc5eda5b35")
+	)
+	(pad "2" thru_hole circle
+		(at -9.15 0)
+		(size 1.2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "df8ca8e5-716e-4539-9845-9922319bffd3")
+	)
+	(pad "3" thru_hole circle
+		(at -6.35 -1.6)
+		(size 1.2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6e9fc988-d9a8-4035-84d2-cd62570ad617")
+	)
+	(pad "SHIELD" thru_hole oval
+		(at 0 0)
+		(size 0.8 2.2)
+		(drill oval 0.4 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "334ea73b-b16d-4817-b2d9-2a38ec2c109c")
+	)
+	(model "${KIPRJMOD}/../../kicad-modules/shapes3d/IO-TXLR3-M-PH.stp"
+		(offset
+			(xyz 5.3 0 8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

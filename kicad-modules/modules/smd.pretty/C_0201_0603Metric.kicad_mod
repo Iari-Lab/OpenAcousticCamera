@@ -1,0 +1,175 @@
+(footprint "C_0201_0603Metric"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
+	(tags "capacitor")
+	(property "Reference" "C"
+		(at -0.75 -2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7b365d83-7e44-4202-a905-8adb3fda961f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "0.01uF"
+		(at 0 1.05 0)
+		(layer "F.Fab")
+		(uuid "17e511a0-0113-45c7-9c05-7065d46110ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "432fae68-86ee-4ba2-8274-bd12e45e7b41")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76aafee4-00e7-466d-a18a-315118bb2dca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.56 -0.27)
+		(end 0.56 -0.27)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0e78cae3-58b9-4bed-8cbb-50c70b3ba2b2")
+	)
+	(fp_line
+		(start -0.56 0.27)
+		(end -0.56 -0.27)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dbeeaa66-c13f-4227-bb63-4f3eb8624e1e")
+	)
+	(fp_line
+		(start 0.56 -0.27)
+		(end 0.56 0.27)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "854c8430-8272-49c5-9161-e2281f69b059")
+	)
+	(fp_line
+		(start 0.56 0.27)
+		(end -0.56 0.27)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0526aa62-9517-4881-91d8-0e85d2de0586")
+	)
+	(fp_line
+		(start -0.3 -0.15)
+		(end 0.3 -0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e455ecd-bdb6-416a-a8be-796cc00ac5a5")
+	)
+	(fp_line
+		(start -0.3 0.15)
+		(end -0.3 -0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9f146e63-7ccb-4438-8cb5-20c1045eff09")
+	)
+	(fp_line
+		(start 0.3 -0.15)
+		(end 0.3 0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eb08d49b-9951-4a80-8818-86986872dfe3")
+	)
+	(fp_line
+		(start 0.3 0.15)
+		(end -0.3 0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ddcd3193-ef85-4aed-bccc-e4e889d3d201")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.680001 0)
+		(layer "F.Fab")
+		(uuid "ff3bc0cc-cfd6-4129-87e0-4f38f4d41221")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.28 0)
+		(size 0.36 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "e6a7ec32-b29a-4965-b4fd-086db94960e2")
+	)
+	(pad "2" smd roundrect
+		(at 0.28 0)
+		(size 0.36 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "47b376db-0839-49e2-88c3-3e34611546aa")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,108 @@
+(footprint "VLS2016"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.8509 -1.714503 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f8fe5617-6fbe-4af2-99d9-d1043f2302ac")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "2.2uH"
+		(at -0.8509 3.238502 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9fef0aff-d9db-42bc-b829-d8c1ae687dc0")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "ba4f4141-6783-40d5-b15d-085cf8335649")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "4db3dfc4-e36c-436d-9daa-c8bb64806c60")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_rect
+		(start -1.1 -0.9)
+		(end 1.1 0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "126d4f22-3220-42be-85e3-6f7d14d9240e")
+	)
+	(fp_rect
+		(start -1.1 -0.9)
+		(end 1.1 0.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bfacf64c-b04b-4421-8c74-29533c264f30")
+	)
+	(pad "1" smd rect
+		(at 0.675 0 270)
+		(size 1.6 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "90676610-d5e9-41b6-ad12-f057fd0bad79")
+	)
+	(pad "2" smd rect
+		(at -0.675 0 270)
+		(size 1.6 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "464cc14a-84dd-4beb-930c-44d06de9c820")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../../kicad-modules/shapes3d/vls201610hbx-1.step"
+		(offset
+			(xyz 0 0 0.01)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
