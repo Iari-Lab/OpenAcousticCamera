@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SPH0641LU4H-1")(type "KiCad")(uri "${KIPRJMOD}/../../kicad-modules/libs/mics/SPH0641LU4H-1.kicad_sym")(options "")(descr ""))
+  (lib (name "M55-7002042R")(type "KiCad")(uri "${KIPRJMOD}/../../kicad-modules/libs/M55-7002042R.kicad_sym")(options "")(descr ""))
+  (lib (name "WS2813C")(type "KiCad")(uri "${KIPRJMOD}/../../kicad-modules/libs/ws2813c.kicad_sym")(options "")(descr ""))
+  (lib (name "OSHW")(type "KiCad")(uri "${KIPRJMOD}/../../kicad-modules/libs/OSHW.kicad_sym")(options "")(descr ""))
+)
