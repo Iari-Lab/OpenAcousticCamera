@@ -15601,6 +15601,54 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "email: andresfcalderon@gmail.com\n"
+		(exclude_from_sim no)
+		(at 493.268 384.048 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "1621351b-083a-4f67-a47a-d7a84d38b9c6")
+	)
+	(text "Author: Andrés CALDERÓN"
+		(exclude_from_sim no)
+		(at 488.95 380.492 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "705a1550-a8c3-40b0-98a4-68031764f1a0")
+	)
+	(text "https://github.com/Iari-Lab/OpenAcousticCamera\n"
+		(exclude_from_sim no)
+		(at 500.888 387.604 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "77e9ddee-49a1-4738-a424-37903d0cbcaa")
+	)
+	(text "Microphones"
+		(exclude_from_sim no)
+		(at 498.348 399.542 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "fbc8c331-4189-4f04-add3-36d328f0fdae")
+	)
 	(junction
 		(at 318.77 240.03)
 		(diameter 0)

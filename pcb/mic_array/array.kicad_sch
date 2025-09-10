@@ -2263,6 +2263,54 @@
 		)
 		(uuid "08219d58-8cf7-4fa8-ad35-f7795b8e09d3")
 	)
+	(text "email: andresfcalderon@gmail.com\n"
+		(exclude_from_sim no)
+		(at 319.278 260.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "08977fca-5407-4bcf-8ef9-8555bc81c21b")
+	)
+	(text "Author: Andrés CALDERÓN"
+		(exclude_from_sim no)
+		(at 314.96 256.794 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "5153a9a1-ee8c-45fc-b490-2356827237ff")
+	)
+	(text "https://github.com/Iari-Lab/OpenAcousticCamera\n"
+		(exclude_from_sim no)
+		(at 326.898 263.906 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "62097d41-2cae-4ee1-9f6c-6829d7404e70")
+	)
+	(text "Top page, microphone array"
+		(exclude_from_sim no)
+		(at 324.612 276.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "eacdaded-bf69-4fb0-954c-8bb0810c6169")
+	)
 	(junction
 		(at 53.34 228.6)
 		(diameter 0)
@@ -6027,7 +6075,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17365015"
+		(property "LCSC" "C7503099"
 			(at 124.46 228.6 90)
 			(effects
 				(font
@@ -7824,7 +7872,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17365015"
+		(property "LCSC" "C7503099"
 			(at 50.8 228.6 90)
 			(effects
 				(font

@@ -405,6 +405,54 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "LEDs"
+		(exclude_from_sim no)
+		(at 189.992 189.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "433f0c8a-d254-4072-9f6b-0489521b5ae8")
+	)
+	(text "Author: Andrés CALDERÓN"
+		(exclude_from_sim no)
+		(at 193.548 169.672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "4d8ffee1-bfd3-48f4-be7e-657d1dd25f2b")
+	)
+	(text "email: andresfcalderon@gmail.com\n"
+		(exclude_from_sim no)
+		(at 197.866 173.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "85f0a8cd-c649-4b08-a76d-cbd8e6fe77fb")
+	)
+	(text "https://github.com/Iari-Lab/OpenAcousticCamera\n"
+		(exclude_from_sim no)
+		(at 205.486 176.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "d13c34f8-166a-44dd-b989-0fc43ec70514")
+	)
 	(no_connect
 		(at 269.24 152.4)
 		(uuid "21467c31-3679-4a22-93e2-c5efbb375689")
