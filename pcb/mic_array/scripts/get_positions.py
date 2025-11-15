@@ -1,16 +1,7 @@
-import pcbnew
-from pcbnew import *
 import math
-
-base = '../'
-file = 'array.kicad_pcb'
-pcb_file = base + '/' + file
-    
-board = pcbnew.LoadBoard(pcb_file)
 
 mic = 0
 center = [110, 100]
-mic_offset   = [ 0.0,  0.0]
 radius = 20; #mm
 
 print(f"mic,x,y,angle")
