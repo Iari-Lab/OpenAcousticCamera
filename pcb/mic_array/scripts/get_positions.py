@@ -25,7 +25,7 @@ for ndx in range(1, 61):
     rad = math.atan2(y,x)
 
     angle = -math.degrees(rad+math.pi/2)
-    print(f"M{mic},{x:8.5f},{y:8.5f},{angle:8.5f}")
+    print(f"M{mic},{x:8.5f},{-y:8.5f},{angle:8.5f}")
     mic = mic + 1
 
 
